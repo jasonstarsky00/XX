@@ -44,3 +44,127 @@
                           where row between 0 and 10
 
   2020-09-18 15:06:11 666   :   select top 10 * from XX_Fiction f left join (select DISTINCT	fictionId from	XX_Catalog ) b  on f.id = b.fictionId where f.clickNum>1 and b.fictionId is not null order by f.clickNum desc
+
+  2020-09-18 17:29:10 508   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:29:10 536   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:29:10 908   :    select top 10 * from
+             (select 
+             (select count(*)  from XX_Fiction f 
+              left join 
+              (select DISTINCT	fictionId from	XX_Catalog ) b  
+              on f.id = b.fictionId where b.fictionId is not null ) as total,
+
+             *,ROW_NUMBER() over(order by f.id) as row
+              from XX_Fiction f 
+              left join (select DISTINCT	fictionId from	XX_Catalog ) b   on f.id = b.fictionId 
+            where b.fictionId is not null   ) h where row between 0 and 10
+
+  2020-09-18 17:29:11 056   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:29:11 610   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:29:11 648   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:29:11 671   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:29:19 643   :    select top 10 * from
+             (select 
+             (select count(*)  from XX_Fiction f 
+              left join 
+              (select DISTINCT	fictionId from	XX_Catalog ) b  
+              on f.id = b.fictionId where b.fictionId is not null ) as total,
+
+             *,ROW_NUMBER() over(order by f.id) as row
+              from XX_Fiction f 
+              left join (select DISTINCT	fictionId from	XX_Catalog ) b   on f.id = b.fictionId 
+            where b.fictionId is not null   ) h where row between 0 and 10
+
+  2020-09-18 17:29:20 627   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:29:20 646   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:29:20 647   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:29:20 706   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:29:20 712   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:29:22 566   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:29:22 567   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:29:22 579   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:29:22 628   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:29:22 641   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:29:31 556   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:29:31 560   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:29:31 561   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:29:31 633   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:29:31 635   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:36:39 648   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:36:39 653   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:36:39 654   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:36:39 714   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:36:39 721   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:36:43 978   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:36:44 008   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:36:56 870   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:36:56 872   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:36:56 883   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:36:56 921   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:36:56 930   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 17:37:01 159   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:37:07 087   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 17:37:07 089   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 17:37:07 127   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 17:37:07 131   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 17:37:07 145   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 18:53:00 094   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 18:53:00 227   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 18:56:46 283   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 18:56:46 283   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 18:56:46 364   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 18:56:46 396   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 18:56:50 235   :     select   id from XX_fiction f where f.Book_Classify='Ææ»ÃÐþ»Ã' intersect select c.fictionId from XX_Catalog  c   order by f.id 
+
+  2020-09-18 18:56:50 235   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 18:56:50 236   :   select top 6 * from XX_Fiction order by clickNum desc
+
+  2020-09-18 18:56:50 291   :   select top 6 * from XX_fiction where id = 89 or id = 161 or id = 237 or id = 331 or id = 402 or id = 434
+
+  2020-09-18 18:56:50 315   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
