@@ -1,0 +1,122 @@
+
+  2020-07-25 01:59:04 154   :     insert into XX_Fiction(ImgSrc,BookName,Synopsis,Book_Author,Book_Classify,Book_Status)values('b298305220014da1a762c7dac5e5ae73.jpeg','我真的是个恶人','&ldquo;土伯，你杀不死我的！&rdquo;
+&ldquo;虽然我无法杀死你，但我可以封印你的记忆！让你离开我这阴间，去往阳间！&rdquo;
+&ldquo;土伯！你敢！你当真不怕我为祸人间！&rdquo;
+&ldquo;呵&hellip;&hellip;汝之记忆，封！&rdquo;
+&hellip;&hellip;','萧顾越','奇幻玄幻','连载中')
+
+  2020-07-25 01:59:04 663   :     insert into XX_Fiction(ImgSrc,BookName,Synopsis,Book_Author,Book_Classify,Book_Status)values('8df16d37510d4ae9a164abf2a92b2be2.jpeg','转生人鬼魔','两个背负着未知身份的少年，踏上让仙鬼三界颤抖或和平的道路，或赢或输，或成或败。','阴逾','奇幻玄幻','连载中')
+
+  2020-07-25 01:59:04 717   :     insert into XX_Fiction(ImgSrc,BookName,Synopsis,Book_Author,Book_Classify,Book_Status)values('91779074c441458cbda44cd130eec92a.jpeg','盗天战纪','&ldquo;人法地，地法天，天法道，道法自然。&rdquo;
+&ldquo;此乃小道耳。&rdquo;
+&ldquo;何为大道？&rdquo;
+&ldquo;是我的，你不能抢。不是我的..怎么可能有我想要的东西不是我的。&rdquo;','一斗之才','武侠仙侠','连载中')
+
+  2020-07-25 02:07:03 597   :    select count(*) as count from XX_Fiction where BookName='我真的是个恶人' and Book_Author='萧顾越'
+
+  2020-07-25 02:07:19 511   :    select count(*) as count from XX_Fiction where BookName='转生人鬼魔' and Book_Author='阴逾'
+
+  2020-07-25 02:07:22 333   :    select count(*) as count from XX_Fiction where BookName='盗天战纪' and Book_Author='一斗之才'
+
+  2020-07-25 02:07:43 433   :    select count(*) as count from XX_Fiction where BookName='我真的是个恶人' and Book_Author='萧顾越'
+
+  2020-07-25 02:07:43 814   :    select count(*) as count from XX_Fiction where BookName='转生人鬼魔' and Book_Author='阴逾'
+
+  2020-07-25 02:07:44 010   :    select count(*) as count from XX_Fiction where BookName='盗天战纪' and Book_Author='一斗之才'
+
+  2020-07-25 02:07:44 011   :     insert into XX_Fiction(ImgSrc,BookName,Synopsis,Book_Author,Book_Classify,Book_Status)values('51fd713abcb14fd99fab3f64c884324c.jpeg','盗天战纪','&ldquo;人法地，地法天，天法道，道法自然。&rdquo;
+&ldquo;此乃小道耳。&rdquo;
+&ldquo;何为大道？&rdquo;
+&ldquo;是我的，你不能抢。不是我的..怎么可能有我想要的东西不是我的。&rdquo;','一斗之才','武侠仙侠','连载中')
+
+  2020-07-25 02:09:48 101   :   select * from XX_User where userName='admin'
+
+  2020-07-25 02:09:48 102   :   select * from XX_User where userName='admin'
+
+  2020-07-25 02:09:48 435   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-25 02:09:48 436   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-25 02:09:48 442   :   insert into XX_Token(uid,token,expiredTime)values(7,'55A8C7CC4B0167171F10AA98984D2AEC','202007260209484407')
+
+  2020-07-25 02:09:48 881   :   select * from XX_User where id=7
+
+  2020-07-25 02:09:48 884   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 17:36:16 355   :   select * from XX_User where id=7
+
+  2020-07-25 17:36:16 500   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 17:55:19 500   :   select * from XX_User where id=7
+
+  2020-07-25 17:55:19 504   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 19:30:12 932   :   select * from XX_User where id=7
+
+  2020-07-25 19:30:12 973   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 19:30:48 492   :    select * from XX_FictionType
+
+  2020-07-25 23:15:09 108   :   select * from XX_User where userName='admin'
+
+  2020-07-25 23:15:09 166   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-25 23:15:09 309   :   select * from XX_User where id=7
+
+  2020-07-25 23:15:09 311   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:36:29 466   :   select * from XX_User where id=7
+
+  2020-07-25 23:36:29 503   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:36:44 015   :   select * from XX_User where id=7
+
+  2020-07-25 23:36:44 017   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:38:34 800   :   select * from XX_User where id=7
+
+  2020-07-25 23:38:34 801   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:39:36 133   :   select * from XX_User where id=7
+
+  2020-07-25 23:39:36 134   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:39:49 542   :   select * from XX_User where id=7
+
+  2020-07-25 23:39:49 544   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:43:38 399   :   select * from XX_User where id=7
+
+  2020-07-25 23:43:38 403   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:44:04 011   :   select * from XX_User where id=7
+
+  2020-07-25 23:44:04 012   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:45:13 824   :   select * from XX_User where id=7
+
+  2020-07-25 23:45:13 825   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:45:37 937   :   select * from XX_User where id=7
+
+  2020-07-25 23:45:37 939   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:49:48 350   :   select * from XX_User where id=7
+
+  2020-07-25 23:49:48 353   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:50:05 785   :   select * from XX_User where id=7
+
+  2020-07-25 23:50:05 786   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:50:38 192   :   select * from XX_User where id=7
+
+  2020-07-25 23:50:38 193   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:51:20 055   :   select * from XX_User where id=7
+
+  2020-07-25 23:51:20 056   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-25 23:53:52 662   :   select * from XX_User where id=7
+
+  2020-07-25 23:53:52 663   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)

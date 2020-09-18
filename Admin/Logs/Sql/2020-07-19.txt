@@ -1,0 +1,536 @@
+
+  2020-07-19 12:21:47 399   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-19 12:21:47 643   :   select * from XX_Role where 1=1 
+
+  2020-07-19 12:21:49 040   :   select * from XX_Role where 1=1 
+
+  2020-07-19 14:46:34 815   :    select * from XX_FictionType
+
+  2020-07-19 16:56:51 511   :   select * from XX_Role where 1=1 
+
+  2020-07-19 16:57:28 086   :   select * from XX_Role where 1=1 
+
+  2020-07-19 16:57:50 546   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:50:48 586   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:51:00 576   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:51:00 580   :   select * from XX_User where id=7
+
+  2020-07-19 17:51:00 648   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 17:51:09 872   :   select * from XX_User where id=7
+
+  2020-07-19 17:51:09 874   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 17:51:09 875   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:51:11 990   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-19 17:51:12 248   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:51:16 133   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:51:47 774   :    select * from XX_FictionType
+
+  2020-07-19 17:51:49 481   :    select * from XX_FictionType
+
+  2020-07-19 17:51:49 484   :   select * from XX_User where id=7
+
+  2020-07-19 17:51:49 485   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 17:52:03 164   :    select * from XX_FictionType
+
+  2020-07-19 17:52:03 165   :   select * from XX_User where id=7
+
+  2020-07-19 17:52:03 176   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 17:52:15 596   :   select * from XX_Role where 1=1 
+
+  2020-07-19 17:52:18 873   :    select * from XX_FictionType
+
+  2020-07-19 17:53:25 382   :    select * from XX_FictionType
+
+  2020-07-19 17:53:52 361   :    select * from XX_FictionType
+
+  2020-07-19 17:55:24 578   :    select * from XX_FictionType
+
+  2020-07-19 17:56:14 581   :    select * from XX_FictionType
+
+  2020-07-19 17:58:04 670   :    select * from XX_FictionType
+
+  2020-07-19 17:58:08 229   :    select * from XX_FictionType
+
+  2020-07-19 17:58:08 231   :   select * from XX_User where id=7
+
+  2020-07-19 17:58:08 233   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:03:41 814   :   select * from XX_User where id=7
+
+  2020-07-19 18:03:41 816   :    select * from XX_FictionType
+
+  2020-07-19 18:03:41 820   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:03:47 089   :   select * from XX_Role where 1=1 
+
+  2020-07-19 18:03:48 808   :   select * from XX_Permission
+
+  2020-07-19 18:03:48 891   :    select permissionId as permissId from XX_RolePermission where roleId=1
+
+  2020-07-19 18:03:52 904   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:52 992   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:53 054   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:55 780   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:55 784   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:55 825   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:57 244   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:57 248   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:57 261   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:59 000   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:59 004   :   upMethodFforWindSQL
+
+  2020-07-19 18:03:59 029   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:01 599   :   select * from XX_Permission
+
+  2020-07-19 18:04:01 671   :    select permissionId as permissId from XX_RolePermission where roleId=1
+
+  2020-07-19 18:04:07 130   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:07 134   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:08 496   :   select * from XX_Permission
+
+  2020-07-19 18:04:08 523   :    select permissionId as permissId from XX_RolePermission where roleId=1
+
+  2020-07-19 18:04:11 653   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:11 656   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:11 689   :   upMethodFforWindSQL
+
+  2020-07-19 18:04:18 035   :   select * from XX_Permission
+
+  2020-07-19 18:04:18 147   :    select permissionId as permissId from XX_RolePermission where roleId=1
+
+  2020-07-19 18:05:02 741   :    select * from XX_FictionType
+
+  2020-07-19 18:21:09 397   :    select * from XX_FictionType
+
+  2020-07-19 18:22:09 300   :    select * from XX_FictionType
+
+  2020-07-19 18:22:48 482   :    select * from XX_FictionType
+
+  2020-07-19 18:23:24 685   :    select * from XX_FictionType
+
+  2020-07-19 18:23:30 050   :    select * from XX_FictionType
+
+  2020-07-19 18:24:37 411   :    select * from XX_FictionType
+
+  2020-07-19 18:25:20 542   :    select * from XX_FictionType
+
+  2020-07-19 18:26:01 199   :    select * from XX_FictionType
+
+  2020-07-19 18:26:48 130   :    select * from XX_FictionType
+
+  2020-07-19 18:27:01 503   :    select * from XX_FictionType
+
+  2020-07-19 18:27:20 130   :    select * from XX_FictionType
+
+  2020-07-19 18:27:20 688   :    select * from XX_FictionType
+
+  2020-07-19 18:27:20 731   :   select * from XX_User where id=7
+
+  2020-07-19 18:27:20 735   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:28:08 529   :    select * from XX_FictionType
+
+  2020-07-19 18:28:27 959   :    select * from XX_FictionType
+
+  2020-07-19 18:28:27 962   :   select * from XX_User where id=7
+
+  2020-07-19 18:28:27 963   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:28:56 026   :    select * from XX_FictionType
+
+  2020-07-19 18:29:02 005   :    select * from XX_FictionType
+
+  2020-07-19 18:29:08 105   :    select * from XX_FictionType
+
+  2020-07-19 18:29:22 276   :    select * from XX_FictionType
+
+  2020-07-19 18:29:26 598   :    select * from XX_FictionType
+
+  2020-07-19 18:29:29 790   :    select * from XX_FictionType
+
+  2020-07-19 18:29:34 592   :    select * from XX_FictionType
+
+  2020-07-19 18:29:37 089   :   select * from XX_User where id=7
+
+  2020-07-19 18:29:37 091   :    select * from XX_FictionType
+
+  2020-07-19 18:29:37 092   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:30:12 806   :   select * from XX_User where id=7
+
+  2020-07-19 18:30:12 807   :    select * from XX_FictionType
+
+  2020-07-19 18:30:12 807   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:30:41 524   :    select * from XX_FictionType
+
+  2020-07-19 18:30:41 526   :   select * from XX_User where id=7
+
+  2020-07-19 18:30:41 529   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:31:02 194   :    select * from XX_FictionType
+
+  2020-07-19 18:31:47 643   :    select * from XX_FictionType
+
+  2020-07-19 18:31:49 521   :    select * from XX_FictionType
+
+  2020-07-19 18:31:49 522   :   select * from XX_User where id=7
+
+  2020-07-19 18:31:49 523   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:34:12 301   :    select * from XX_FictionType
+
+  2020-07-19 18:35:54 956   :    select * from XX_FictionType
+
+  2020-07-19 18:36:09 918   :    select * from XX_FictionType
+
+  2020-07-19 18:36:35 457   :    select * from XX_FictionType
+
+  2020-07-19 18:36:41 146   :    select * from XX_FictionType
+
+  2020-07-19 18:36:45 110   :    select * from XX_FictionType
+
+  2020-07-19 18:36:45 113   :   select * from XX_User where id=7
+
+  2020-07-19 18:36:45 114   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:37:23 001   :    select * from XX_FictionType
+
+  2020-07-19 18:37:27 330   :    select * from XX_FictionType
+
+  2020-07-19 18:37:27 339   :   select * from XX_User where id=7
+
+  2020-07-19 18:37:27 342   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:38:42 991   :    select * from XX_FictionType
+
+  2020-07-19 18:38:47 771   :    select * from XX_FictionType
+
+  2020-07-19 18:38:47 774   :   select * from XX_User where id=7
+
+  2020-07-19 18:38:47 777   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:38:53 824   :    insert into XX_FictionType(name,type)values('²âÊÔ2',2)
+
+  2020-07-19 18:38:53 854   :    select * from XX_FictionType
+
+  2020-07-19 18:39:10 384   :    select * from XX_FictionType
+
+  2020-07-19 18:46:12 185   :    select * from XX_FictionType
+
+  2020-07-19 18:46:17 977   :    select * from XX_FictionType
+
+  2020-07-19 18:46:27 343   :    select * from XX_FictionType
+
+  2020-07-19 18:46:40 192   :    select * from XX_FictionType
+
+  2020-07-19 18:46:48 504   :    select * from XX_FictionType
+
+  2020-07-19 18:46:48 544   :   select * from XX_User where id=7
+
+  2020-07-19 18:46:48 548   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 18:46:57 864   :      delete XX_FictionType where id= 14
+
+  2020-07-19 18:46:57 884   :    select * from XX_FictionType
+
+  2020-07-19 18:47:08 245   :    insert into XX_FictionType(name,type)values('¹þ¹þ',1)
+
+  2020-07-19 18:47:08 273   :    select * from XX_FictionType
+
+  2020-07-19 18:47:13 831   :      delete XX_FictionType where id= 15
+
+  2020-07-19 18:47:13 841   :    select * from XX_FictionType
+
+  2020-07-19 18:49:17 165   :    select * from XX_FictionType
+
+  2020-07-19 18:49:29 661   :    select * from XX_FictionType
+
+  2020-07-19 18:49:50 961   :    select * from XX_FictionType
+
+  2020-07-19 18:50:05 996   :    select * from XX_FictionType
+
+  2020-07-19 18:50:15 434   :    select * from XX_FictionType
+
+  2020-07-19 18:50:54 486   :    select * from XX_FictionType
+
+  2020-07-19 18:51:24 437   :    select * from XX_FictionType
+
+  2020-07-19 18:51:32 431   :    select * from XX_FictionType
+
+  2020-07-19 18:51:40 502   :    select * from XX_FictionType
+
+  2020-07-19 18:51:56 655   :    select * from XX_FictionType
+
+  2020-07-19 18:52:10 290   :    select * from XX_FictionType
+
+  2020-07-19 18:52:39 246   :    select * from XX_FictionType
+
+  2020-07-19 18:52:59 295   :    select * from XX_FictionType
+
+  2020-07-19 18:53:34 461   :    select * from XX_FictionType
+
+  2020-07-19 21:26:49 461   :    select * from XX_FictionType
+
+  2020-07-19 21:26:49 486   :   select * from XX_User where id=7
+
+  2020-07-19 21:26:49 486   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-19 21:26:49 490   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:26:49 686   :    select * from XX_FictionType
+
+  2020-07-19 21:26:49 699   :   select * from XX_Role where 1=1 
+
+  2020-07-19 21:27:10 400   :    select * from XX_FictionType
+
+  2020-07-19 21:27:13 102   :   select * from XX_FictionType where id=3
+
+  2020-07-19 21:27:29 318   :    select * from XX_FictionType
+
+  2020-07-19 21:27:30 914   :    select * from XX_FictionType
+
+  2020-07-19 21:27:30 915   :   select * from XX_User where id=7
+
+  2020-07-19 21:27:30 931   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:27:32 085   :   select * from XX_FictionType where id=4
+
+  2020-07-19 21:28:51 271   :    select * from XX_FictionType
+
+  2020-07-19 21:28:57 939   :    select * from XX_FictionType
+
+  2020-07-19 21:28:57 940   :   select * from XX_User where id=7
+
+  2020-07-19 21:28:57 941   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:28:58 481   :   select * from XX_FictionType where id=2
+
+  2020-07-19 21:29:01 032   :   select * from XX_FictionType where id=3
+
+  2020-07-19 21:29:33 540   :   select * from XX_FictionType where id=1
+
+  2020-07-19 21:29:41 627   :   select * from XX_FictionType where id=3
+
+  2020-07-19 21:29:50 770   :    insert into XX_FictionType(name,type)values('²âÊÔ12',3)
+
+  2020-07-19 21:29:50 804   :    select * from XX_FictionType
+
+  2020-07-19 21:29:57 964   :   select * from XX_FictionType where id=16
+
+  2020-07-19 21:30:05 243   :    insert into XX_FictionType(name,type)values('²âÊÔ13',1)
+
+  2020-07-19 21:30:05 300   :    select * from XX_FictionType
+
+  2020-07-19 21:30:37 140   :    select * from XX_FictionType
+
+  2020-07-19 21:31:19 510   :    select * from XX_FictionType
+
+  2020-07-19 21:41:45 550   :    select * from XX_FictionType
+
+  2020-07-19 21:47:26 437   :    select * from XX_FictionType
+
+  2020-07-19 21:47:32 226   :    select * from XX_FictionType
+
+  2020-07-19 21:47:32 259   :   select * from XX_User where id=7
+
+  2020-07-19 21:47:32 264   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:47:34 573   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:48:04 849   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-19 21:48:04 924   :   select * from XX_Role where 1=1 
+
+  2020-07-19 21:48:05 490   :    select * from XX_FictionType
+
+  2020-07-19 21:48:07 820   :   select * from XX_FictionType where id=16
+
+  2020-07-19 21:49:05 142   :   select * from XX_User where id=7
+
+  2020-07-19 21:49:05 142   :    select * from XX_FictionType
+
+  2020-07-19 21:49:05 143   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:49:07 727   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:49:50 936   :    select * from XX_FictionType
+
+  2020-07-19 21:49:52 187   :   select * from XX_FictionType where id=5
+
+  2020-07-19 21:49:55 485   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:02 391   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:04 230   :   update XX_FictionType set name='111',type=1 where id =17
+
+  2020-07-19 21:50:04 274   :    select * from XX_FictionType
+
+  2020-07-19 21:50:06 217   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:22 431   :    select * from XX_FictionType
+
+  2020-07-19 21:50:23 526   :    select * from XX_FictionType
+
+  2020-07-19 21:50:23 530   :   select * from XX_User where id=7
+
+  2020-07-19 21:50:23 532   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 21:50:25 756   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:28 259   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:31 869   :   select * from XX_FictionType where id=17
+
+  2020-07-19 21:50:39 434   :   update XX_FictionType set name='¹þ¹þ¹þ',type=1 where id =17
+
+  2020-07-19 21:50:39 467   :    select * from XX_FictionType
+
+  2020-07-19 22:48:11 045   :    select * from XX_FictionType
+
+  2020-07-19 22:48:11 051   :   select * from XX_User where id=7
+
+  2020-07-19 22:48:11 115   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 22:48:33 629   :   select * from XX_User where id=7
+
+  2020-07-19 22:48:33 631   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 22:48:38 157   :   select * from XX_User where userName='admin'
+
+  2020-07-19 22:48:38 177   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-19 22:48:38 270   :   select * from XX_User where id=7
+
+  2020-07-19 22:48:38 272   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 22:48:40 673   :    select * from XX_FictionType
+
+  2020-07-19 22:49:45 586   :   select * from XX_User where id=7
+
+  2020-07-19 22:49:45 588   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 22:57:48 067   :   select * from XX_User where userName='admin'
+
+  2020-07-19 22:57:48 567   :   select * from XX_User where userName='admin'
+
+  2020-07-19 22:57:48 627   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-19 22:57:48 628   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-19 22:57:48 657   :   insert into XX_Token(uid,token,expiredTime)values(7,'55A8C7CC4B0167171F10AA98984D2AEC','202007202257486548')
+
+  2020-07-19 22:57:49 467   :   select * from XX_User where id=7
+
+  2020-07-19 22:57:49 469   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 22:57:51 181   :    select * from XX_FictionType
+
+  2020-07-19 23:06:39 018   :   select * from XX_User where userName='admin'
+
+  2020-07-19 23:06:39 026   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-19 23:06:39 087   :   select * from XX_User where id=7
+
+  2020-07-19 23:06:39 088   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 23:06:43 495   :    select * from XX_FictionType
+
+  2020-07-19 23:13:32 789   :   select * from XX_User where id=7
+
+  2020-07-19 23:13:32 790   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 23:14:01 021   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:14:03 219   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:14:03 235   :   select * from XX_User where id=7
+
+  2020-07-19 23:14:03 236   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 23:14:08 717   :    select * from XX_FictionType
+
+  2020-07-19 23:14:11 799   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:15:34 879   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:15:59 751   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:17:20 573   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30
+
+  2020-07-19 23:18:07 814   :   select * from XX_User where id=7
+
+  2020-07-19 23:18:07 816   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-19 23:18:07 819   :   select top 30
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 30

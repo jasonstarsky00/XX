@@ -1,0 +1,46 @@
+
+  2020-09-18 14:58:05 326   :   select   f.id from XX_fiction f intersect select c.fictionId from XX_Catalog c  order by f.id 
+
+  2020-09-18 14:58:07 245   :   select top 3 * from XX_fiction where id = 16 or id = 55 or id = 87
+
+  2020-09-18 15:04:32 632   :   select * from XX_User where userName='admin'
+
+  2020-09-18 15:04:32 665   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-09-18 15:04:32 696   :   insert into XX_Token(uid,token,expiredTime)values(7,'55A8C7CC4B0167171F10AA98984D2AEC','202009191504326955')
+
+  2020-09-18 15:04:32 958   :   select * from XX_User where id=7
+
+  2020-09-18 15:04:32 963   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-09-18 15:04:34 992   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-09-18 15:04:35 108   :   select * from XX_Role where 1=1 
+
+  2020-09-18 15:04:37 491   :    select * from XX_FictionType
+
+  2020-09-18 15:04:39 734   :   select top 10
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 10
+
+  2020-09-18 15:05:40 994   :   select * from XX_User where userName='admin'
+
+  2020-09-18 15:05:41 000   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-09-18 15:05:41 071   :   select * from XX_User where id=7
+
+  2020-09-18 15:05:41 076   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-09-18 15:05:44 760   :   select top 10
+                        (select count(*)  from XX_Fiction where 1 = 1 ) as total,
+                        *from
+                        (select ROW_NUMBER() over(order by id) as row, *from XX_Fiction u where 1 = 1  ) XX_Fiction
+                          where row between 0 and 10
+
+  2020-09-18 15:06:11 666   :   select top 10 * from XX_Fiction f left join (select DISTINCT	fictionId from	XX_Catalog ) b  on f.id = b.fictionId where f.clickNum>1 and b.fictionId is not null order by f.clickNum desc

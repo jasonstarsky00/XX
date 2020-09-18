@@ -1,0 +1,24 @@
+
+  2020-07-26 00:02:54 737   :   select * from XX_User where id=7
+
+  2020-07-26 00:02:55 148   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-26 00:03:47 106   :   select * from XX_User where id=7
+
+  2020-07-26 00:03:47 109   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-26 00:03:48 294   :   select * from XX_User where id=7
+
+  2020-07-26 00:03:48 297   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-26 00:04:09 488   :    select * from XX_FictionType
+
+  2020-07-26 00:56:08 895   :   select * from XX_User where id=7
+
+  2020-07-26 00:56:08 940   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-26 01:06:04 766   :   select * from XX_User where id=7
+
+  2020-07-26 01:06:04 802   :      select p.*from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1 and (type = 1 or type = 3)
+
+  2020-07-26 01:06:09 811   :    select * from XX_FictionType

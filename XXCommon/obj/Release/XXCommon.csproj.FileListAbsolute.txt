@@ -1,0 +1,15 @@
+D:\JasonComputer_Share\Jason\后台\github\XXAdmin\XXAdmin\XXCommon\bin\Release\XXCommon.dll
+D:\JasonComputer_Share\Jason\后台\github\XXAdmin\XXAdmin\XXCommon\bin\Release\XXCommon.pdb
+D:\JasonComputer_Share\Jason\后台\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.dll
+D:\JasonComputer_Share\Jason\后台\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.pdb
+D:\JasonComputer_Share\Jason\后台\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.csprojResolveAssemblyReference.cache
+C:\Jason\B\github\XXAdmin\XXAdmin\XXCommon\bin\Release\XXCommon.dll
+C:\Jason\B\github\XXAdmin\XXAdmin\XXCommon\bin\Release\XXCommon.pdb
+C:\Jason\B\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.csprojAssemblyReference.cache
+C:\Jason\B\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.dll
+C:\Jason\B\github\XXAdmin\XXAdmin\XXCommon\obj\Release\XXCommon.pdb
+D:\JasonComputer_Share\Jason\后台\github\XX\XXCommon\bin\Release\XXCommon.dll
+D:\JasonComputer_Share\Jason\后台\github\XX\XXCommon\bin\Release\XXCommon.pdb
+D:\JasonComputer_Share\Jason\后台\github\XX\XXCommon\obj\Release\XXCommon.csprojResolveAssemblyReference.cache
+D:\JasonComputer_Share\Jason\后台\github\XX\XXCommon\obj\Release\XXCommon.dll
+D:\JasonComputer_Share\Jason\后台\github\XX\XXCommon\obj\Release\XXCommon.pdb

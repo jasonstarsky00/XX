@@ -1,0 +1,180 @@
+
+  2020-07-16 00:24:58 237   :   select * from XX_Permission
+
+  2020-07-16 00:25:41 140   :   select * from XX_Permission
+
+  2020-07-16 00:34:03 550   :   select * from XX_Role where 1=1 
+
+  2020-07-16 00:34:03 553   :   select * from XX_User where id=7
+
+  2020-07-16 00:34:03 562   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:08:49 899   :   select * from XX_User where userName='admin'
+
+  2020-07-16 23:08:50 202   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-16 23:08:50 224   :   insert into XX_Token(uid,token,expiredTime)values(7,'55A8C7CC4B0167171F10AA98984D2AEC','202007172308502229')
+
+  2020-07-16 23:08:50 770   :   select * from XX_User where id=7
+
+  2020-07-16 23:08:50 774   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:09:04 012   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-16 23:09:06 504   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:10:57 050   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:11:00 730   :   select * from XX_User where id=7
+
+  2020-07-16 23:11:00 732   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:11:00 732   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:11:56 621   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:11:59 713   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:11:59 722   :   select * from XX_User where id=7
+
+  2020-07-16 23:11:59 727   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:13:49 434   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:13:51 173   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:14:17 674   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:14:40 161   :   select * from XX_User where id=7
+
+  2020-07-16 23:14:40 170   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:14:40 176   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:15:13 835   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:15:17 153   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:15:17 157   :   select * from XX_User where id=7
+
+  2020-07-16 23:15:17 163   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:15:33 297   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:15:39 600   :   select * from XX_Permission
+
+  2020-07-16 23:16:55 803   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:16:57 876   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-16 23:16:59 195   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:17:12 313   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:17:12 326   :   select * from XX_User where id=7
+
+  2020-07-16 23:17:12 334   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:17:14 119   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-16 23:17:14 759   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:17:21 919   :   select * from XX_Permission
+
+  2020-07-16 23:17:46 836   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:18:07 083   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:18:08 901   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:18:08 903   :   select * from XX_User where id=7
+
+  2020-07-16 23:18:08 906   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:18:09 445   :   select * from XX_Permission
+
+  2020-07-16 23:19:30 860   :   select * from XX_User where id=7
+
+  2020-07-16 23:19:30 861   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:19:34 490   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:19:34 491   :   select * from XX_User where id=7
+
+  2020-07-16 23:19:34 492   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:19:37 194   :   select * from XX_Permission
+
+  2020-07-16 23:20:03 668   :   select * from XX_User where id=7
+
+  2020-07-16 23:20:03 669   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:20:03 670   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:20:04 444   :   select * from XX_Permission
+
+  2020-07-16 23:20:08 573   :   select * from XX_Permission
+
+  2020-07-16 23:24:43 195   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:24:56 204   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:25:54 679   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:26:20 949   :   select * from XX_User where id=7
+
+  2020-07-16 23:26:20 960   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:26:20 965   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:45:54 182   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:46:12 969   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:47:11 046   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:49:03 759   :   select * from XX_Permission
+
+  2020-07-16 23:49:11 314   :   upMethodFforWindSQL
+
+  2020-07-16 23:50:15 058   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:50:16 690   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:50:16 739   :   select * from XX_User where id=7
+
+  2020-07-16 23:50:16 742   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:50:20 643   :   select * from XX_Permission
+
+  2020-07-16 23:50:23 467   :   upMethodFforWindSQL
+
+  2020-07-16 23:51:02 040   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:51:03 826   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:51:03 834   :   select * from XX_User where id=7
+
+  2020-07-16 23:51:03 835   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-16 23:51:05 707   :   select * from XX_Permission
+
+  2020-07-16 23:51:10 103   :   upMethodFforWindSQL
+
+  2020-07-16 23:51:10 105   :   upMethodFforWindSQL
+
+  2020-07-16 23:59:23 912   :   select * from XX_Role where 1=1 
+
+  2020-07-16 23:59:37 609   :   select * from XX_Permission

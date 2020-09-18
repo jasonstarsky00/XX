@@ -1,0 +1,2342 @@
+
+  2020-07-14 12:59:14 124   :   select * from XX_User where id=7
+
+  2020-07-14 12:59:14 214   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 12:59:25 114   :   select * from XX_User where id=7
+
+  2020-07-14 12:59:25 117   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:02:23 324   :   select * from XX_User where id=7
+
+  2020-07-14 13:02:23 325   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:02:42 925   :   select * from XX_User where id=7
+
+  2020-07-14 13:02:42 927   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:04:59 083   :   select * from XX_User where id=7
+
+  2020-07-14 13:04:59 089   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:05:12 793   :   select * from XX_User where id=7
+
+  2020-07-14 13:05:12 805   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:05:17 566   :   select * from XX_User where id=7
+
+  2020-07-14 13:05:17 573   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:05:20 588   :   select * from XX_User where id=7
+
+  2020-07-14 13:05:20 591   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 13:05:23 079   :   select * from XX_User where id=7
+
+  2020-07-14 13:05:23 082   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:29:43 299   :   select * from XX_User where id=7
+
+  2020-07-14 16:29:43 351   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:30:47 207   :   select * from XX_User where id=7
+
+  2020-07-14 16:30:47 212   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:30:50 165   :   select * from XX_User where id=7
+
+  2020-07-14 16:30:50 168   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:30:58 567   :   select * from XX_User where id=7
+
+  2020-07-14 16:30:58 570   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:31:02 121   :   select * from XX_User where id=7
+
+  2020-07-14 16:31:02 124   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:33:38 772   :   select * from XX_User where id=7
+
+  2020-07-14 16:33:38 777   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:33:40 340   :   select * from XX_User where id=7
+
+  2020-07-14 16:33:40 342   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:33:55 310   :   select * from XX_User where userName='admin'
+
+  2020-07-14 16:33:55 327   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 16:33:55 378   :   select * from XX_User where id=7
+
+  2020-07-14 16:33:55 380   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:34:18 745   :   select * from XX_User where userName='admin'
+
+  2020-07-14 16:34:18 750   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 16:34:25 245   :   select * from XX_User where userName='admin'
+
+  2020-07-14 16:34:25 249   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 16:35:04 661   :   select * from XX_User where id=7
+
+  2020-07-14 16:35:04 664   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:35:07 262   :   select * from XX_User where id=7
+
+  2020-07-14 16:35:07 264   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:36:50 230   :   select * from XX_User where id=7
+
+  2020-07-14 16:36:50 233   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:37:08 418   :   select * from XX_User where id=7
+
+  2020-07-14 16:37:08 420   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:37:27 802   :   select * from XX_User where userName='admin'
+
+  2020-07-14 16:37:27 805   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 16:37:27 841   :   select * from XX_User where id=7
+
+  2020-07-14 16:37:27 843   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 16:41:08 946   :   select * from XX_User where userName='admin'
+
+  2020-07-14 16:41:08 952   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 16:41:08 988   :   select * from XX_User where id=7
+
+  2020-07-14 16:41:08 991   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:26:26 013   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:27:34 536   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName='test110') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:29:02 410   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:32:29 999   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName='""'and name like '%""%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='""'and name like '%""%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:33:15 020   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName='""'and name like '%""%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='""'and name like '%""%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:33:44 713   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:34:21 429   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%'and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%'and userRole =1) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:35:42 329   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%'and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%'and userRole =1) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:37:12 603   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%'and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%'and userRole =1) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:38:32 576   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 17:39:23 845   :   select top 3
+	                    (select count(*)  from XX_User where 1=1 and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1) XX_User
+                        where row between 0 and 3
+
+  2020-07-14 17:45:07 756   :   select * from XX_User where id=7
+
+  2020-07-14 17:45:07 786   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:47:56 936   :   select * from XX_User where id=7
+
+  2020-07-14 17:47:56 941   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:49:00 475   :   select * from XX_User where id=7
+
+  2020-07-14 17:49:00 480   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:55:51 311   :   select * from XX_User where id=7
+
+  2020-07-14 17:55:51 317   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:56:24 153   :   select * from XX_User where id=7
+
+  2020-07-14 17:56:24 160   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:56:54 757   :   select * from XX_User where id=7
+
+  2020-07-14 17:56:54 761   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:57:50 398   :   select * from XX_User where id=7
+
+  2020-07-14 17:57:50 402   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 17:58:31 140   :   select * from XX_User where id=7
+
+  2020-07-14 17:58:31 142   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:00:22 219   :   select * from XX_User where id=7
+
+  2020-07-14 18:00:22 223   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:00:25 439   :   select * from XX_User where id=7
+
+  2020-07-14 18:00:25 441   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:01:16 791   :   select * from XX_User where id=7
+
+  2020-07-14 18:01:16 794   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:02:54 314   :   select * from XX_User where id=7
+
+  2020-07-14 18:02:54 318   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:03:22 380   :   select * from XX_User where id=7
+
+  2020-07-14 18:03:22 383   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:04:40 540   :   select * from XX_User where id=7
+
+  2020-07-14 18:04:40 543   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:04:45 140   :   select * from XX_User where id=7
+
+  2020-07-14 18:04:45 143   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:07:33 988   :   select * from XX_User where id=7
+
+  2020-07-14 18:07:33 991   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:07:46 220   :   select * from XX_User where id=7
+
+  2020-07-14 18:07:46 223   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:08:09 888   :   select * from XX_User where id=7
+
+  2020-07-14 18:08:09 891   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:08:47 587   :   select * from XX_User where id=7
+
+  2020-07-14 18:08:47 590   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:09:22 695   :   select * from XX_User where id=7
+
+  2020-07-14 18:09:22 699   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:09:23 562   :   select * from XX_User where id=7
+
+  2020-07-14 18:09:23 564   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:09:53 445   :   select * from XX_User where id=7
+
+  2020-07-14 18:09:53 448   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:10:55 374   :   select * from XX_User where id=7
+
+  2020-07-14 18:10:55 379   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:11:02 997   :   select * from XX_User where id=7
+
+  2020-07-14 18:11:02 999   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:11:12 968   :   select * from XX_User where id=7
+
+  2020-07-14 18:11:12 970   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:45:16 728   :   select * from XX_User where id=7
+
+  2020-07-14 18:45:16 775   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:46:17 831   :   select * from XX_User where id=7
+
+  2020-07-14 18:46:17 835   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:46:26 973   :   select * from XX_User where id=7
+
+  2020-07-14 18:46:26 975   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:46:35 251   :   select * from XX_User where id=7
+
+  2020-07-14 18:46:35 256   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:47:02 490   :   select * from XX_User where id=7
+
+  2020-07-14 18:47:02 498   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:48:06 548   :   select * from XX_User where id=7
+
+  2020-07-14 18:48:06 553   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:51:13 265   :   select * from XX_User where id=7
+
+  2020-07-14 18:51:13 268   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:52:26 384   :   select * from XX_User where id=7
+
+  2020-07-14 18:52:26 388   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:55:57 703   :   select * from XX_User where id=7
+
+  2020-07-14 18:55:57 707   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 18:59:18 649   :   select * from XX_User where id=7
+
+  2020-07-14 18:59:18 657   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:03:45 233   :   select * from XX_User where id=7
+
+  2020-07-14 19:03:45 237   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:06:56 813   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:07:10 126   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:07:12 555   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:07:12 557   :   select * from XX_User where id=7
+
+  2020-07-14 19:07:12 561   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:07:19 078   :   select * from XX_User where id=7
+
+  2020-07-14 19:07:19 084   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:07:19 086   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:08:47 128   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 and userName=''and name like '%%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName=''and name like '%%') XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:08:47 130   :   select * from XX_User where id=7
+
+  2020-07-14 19:08:47 214   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:08:58 205   :   select * from XX_User where id=7
+
+  2020-07-14 19:10:44 964   :   select * from XX_User where id=7
+
+  2020-07-14 19:10:45 141   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:10:48 281   :   select * from XX_User where id=7
+
+  2020-07-14 19:10:48 309   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:10:50 242   :   select * from XX_User where id=7
+
+  2020-07-14 19:10:50 271   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:10:56 519   :   select * from XX_User where id=7
+
+  2020-07-14 19:10:56 549   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:11:19 461   :   select * from XX_User where id=7
+
+  2020-07-14 19:11:19 484   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:13:00 501   :   select * from XX_User where id=7
+
+  2020-07-14 19:13:10 058   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:15:57 658   :   select * from XX_User where id=7
+
+  2020-07-14 19:15:58 756   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:16:04 393   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:20:13 240   :   select * from XX_User where id=7
+
+  2020-07-14 19:20:19 597   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:20:19 621   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:23:16 372   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:28:55 104   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:29:01 878   :   select * from XX_User where id=7
+
+  2020-07-14 19:29:01 879   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:29:01 882   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:35:48 437   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:35:54 129   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:37:03 129   :   select * from XX_User where id=7
+
+  2020-07-14 19:37:03 131   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:37:03 135   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:37:15 096   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:37:15 098   :   select * from XX_User where id=7
+
+  2020-07-14 19:37:15 130   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:40:15 764   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:40:18 653   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:40:18 662   :   select * from XX_User where id=7
+
+  2020-07-14 19:40:18 681   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:41:14 193   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:41:14 198   :   select * from XX_User where id=7
+
+  2020-07-14 19:41:14 211   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:42:50 022   :   select * from XX_User where id=7
+
+  2020-07-14 19:42:50 025   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:42:50 033   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:44:22 797   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:44:24 723   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:44:24 760   :   select * from XX_User where id=7
+
+  2020-07-14 19:44:24 774   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:46:29 544   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:46:29 546   :   select * from XX_User where id=7
+
+  2020-07-14 19:46:29 581   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:46:57 924   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:46:57 926   :   select * from XX_User where id=7
+
+  2020-07-14 19:46:57 951   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:49:50 923   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:50:15 195   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:50:15 205   :   select * from XX_User where id=7
+
+  2020-07-14 19:50:15 250   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:51:49 227   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:52:10 681   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:52:54 150   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:53:40 827   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:53:47 329   :   select * from XX_User where id=7
+
+  2020-07-14 19:53:47 333   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:53:47 337   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 19:59:56 173   :   select * from XX_User where id=7
+
+  2020-07-14 19:59:56 178   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 19:59:56 189   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:03:59 034   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:04:16 468   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:06:02 948   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:06:06 309   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:06:06 314   :   select * from XX_User where id=7
+
+  2020-07-14 20:06:06 328   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:07:31 402   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:07:31 404   :   select * from XX_User where id=7
+
+  2020-07-14 20:07:31 440   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:10:04 449   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:12:23 140   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:12:25 532   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:12:25 535   :   select * from XX_User where id=7
+
+  2020-07-14 20:12:25 542   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:13:28 762   :   select * from XX_User where id=7
+
+  2020-07-14 20:13:28 765   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:13:28 768   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:14:10 586   :   select * from XX_User where id=7
+
+  2020-07-14 20:14:10 591   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:14:10 594   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:15:14 243   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:15:16 524   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:15:16 528   :   select * from XX_User where id=7
+
+  2020-07-14 20:15:16 536   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:17:03 347   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:17:06 665   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:17:35 085   :   select * from XX_User where id=7
+
+  2020-07-14 20:17:35 093   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:17:35 094   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:17:55 489   :   select * from XX_User where id=7
+
+  2020-07-14 20:17:55 490   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:17:55 493   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:23:41 653   :   select * from XX_User where id=7
+
+  2020-07-14 20:23:41 660   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:23:44 837   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:23:44 840   :   select * from XX_User where id=7
+
+  2020-07-14 20:23:44 876   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:28:07 418   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:28:31 150   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:28:31 151   :   select * from XX_User where id=7
+
+  2020-07-14 20:28:31 159   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:28:53 992   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:28:55 389   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:28:55 397   :   select * from XX_User where id=7
+
+  2020-07-14 20:28:55 404   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:30:47 534   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:30:50 844   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:30:50 846   :   select * from XX_User where id=7
+
+  2020-07-14 20:30:50 853   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:31:02 091   :   select * from XX_User where id=7
+
+  2020-07-14 20:31:02 098   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:31:02 115   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:31:19 662   :   select * from XX_User where id=7
+
+  2020-07-14 20:31:19 672   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:31:19 681   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:35:25 098   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:35:30 521   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:35:30 526   :   select * from XX_User where id=7
+
+  2020-07-14 20:35:30 531   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:35:45 067   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:35:45 068   :   select * from XX_User where id=7
+
+  2020-07-14 20:35:45 076   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:35:50 023   :   select * from XX_User where id=7
+
+  2020-07-14 20:35:50 026   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:35:53 635   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:35:53 638   :   select * from XX_User where id=7
+
+  2020-07-14 20:35:53 642   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:36:10 018   :   select * from XX_User where id=7
+
+  2020-07-14 20:36:10 022   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 20:36:10 024   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:36:33 978   :   select * from XX_User where id=7
+
+  2020-07-14 20:36:33 982   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 20:36:34 002   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:48:40 701   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:50:02 073   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:50:25 361   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:50:46 529   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:50:46 556   :   select * from XX_User where id=7
+
+  2020-07-14 21:50:46 562   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 21:51:39 811   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:51:39 813   :   select * from XX_User where id=7
+
+  2020-07-14 21:51:39 821   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 21:52:28 368   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:53:41 484   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:53:59 208   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:53:59 211   :   select * from XX_User where id=7
+
+  2020-07-14 21:53:59 215   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 21:55:33 415   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:56:31 098   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:56:32 580   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 21:56:32 583   :   select * from XX_User where id=7
+
+  2020-07-14 21:56:32 595   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:00:59 102   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:01:01 991   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:01:02 001   :   select * from XX_User where id=7
+
+  2020-07-14 22:01:02 005   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:01:11 946   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:01:11 956   :   select * from XX_User where id=7
+
+  2020-07-14 22:01:11 960   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:01:44 744   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:01:44 746   :   select * from XX_User where id=7
+
+  2020-07-14 22:01:44 752   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:02:01 694   :   select * from XX_User where id=7
+
+  2020-07-14 22:02:01 695   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:02:01 699   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:03:34 638   :   select * from XX_User where id=7
+
+  2020-07-14 22:03:34 659   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:03:37 995   :   select * from XX_User where id=7
+
+  2020-07-14 22:03:37 999   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:03:38 006   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:05:31 117   :   select * from XX_User where id=7
+
+  2020-07-14 22:05:31 119   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:05:31 125   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:05:57 341   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:06:01 695   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:06:01 698   :   select * from XX_User where id=7
+
+  2020-07-14 22:06:01 701   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:06:10 697   :   select * from XX_User where id=7
+
+  2020-07-14 22:06:10 700   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:06:10 711   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:06:25 488   :   select * from XX_User where userName='admin'
+
+  2020-07-14 22:06:25 520   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 22:06:25 555   :   insert into XX_Token(uid,token,expiredTime)values(7,'55A8C7CC4B0167171F10AA98984D2AEC','202007152206255500')
+
+  2020-07-14 22:06:25 801   :   select * from XX_User where id=7
+
+  2020-07-14 22:06:25 804   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:06:29 683   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:07:53 989   :   select * from XX_User where id=7
+
+  2020-07-14 22:07:53 996   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:08:17 112   :   select * from XX_User where id=7
+
+  2020-07-14 22:08:17 115   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:08:17 117   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:09:06 201   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:11:16 012   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:11:16 016   :   select * from XX_User where id=7
+
+  2020-07-14 22:11:16 033   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:12:15 109   :   select * from XX_User where id=7
+
+  2020-07-14 22:12:15 112   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:12:15 118   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:13:43 839   :   select * from XX_User where id=7
+
+  2020-07-14 22:13:43 842   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:13:43 845   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:14:34 076   :   select * from XX_User where id=7
+
+  2020-07-14 22:14:34 079   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:14:34 083   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:14:36 997   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:15:08 190   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:15:09 424   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:15:09 428   :   select * from XX_User where id=7
+
+  2020-07-14 22:15:09 431   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:16:02 378   :   select * from XX_User where id=7
+
+  2020-07-14 22:16:02 379   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:16:02 392   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:16:15 543   :   select * from XX_User where id=7
+
+  2020-07-14 22:16:15 546   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:16:17 888   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:16:17 890   :   select * from XX_User where id=7
+
+  2020-07-14 22:16:17 897   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:18:00 799   :   select * from XX_User where id=7
+
+  2020-07-14 22:18:00 802   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:18:00 803   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:20:35 302   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:21:16 496   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:22:15 143   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:22:59 783   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:23:22 463   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:23:43 139   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:23:45 673   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:23:45 679   :   select * from XX_User where id=7
+
+  2020-07-14 22:23:45 682   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:24:50 065   :   select count(*) as count from XX_User where userName='test113'
+
+  2020-07-14 22:24:50 119   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test113','u4PO4JL093JonDBvDN','8CA57B6F9FB741A2973F06EE265BDACC','CB142219C74B4D683115E5B913B9F88D',1,'Avatar_02.png','烟酒为伴',0,1,0,0,0)
+
+  2020-07-14 22:24:57 215   :   select count(*) as count from XX_User where userName='test114'
+
+  2020-07-14 22:24:57 221   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test114','RRUrIKXw7TT7dxHInM','24EF020317304E4D9B24F5C25897AAF7','A5F9D89DF8B5F6E212DC32CB9A181647',1,'Avatar_05.png','一纸独白',0,1,0,0,0)
+
+  2020-07-14 22:25:06 856   :   select count(*) as count from XX_User where userName='test115'
+
+  2020-07-14 22:25:06 885   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test115','Vo2EHYQhRUutVDkIN7','7E422651953D4FC8AE15FFBF070B78F2','CDF386B907BCA1CBFA2E137EB034935A',1,'Avatar_05.png','深海蔚藍',0,1,0,0,0)
+
+  2020-07-14 22:25:10 931   :   select count(*) as count from XX_User where userName='test116'
+
+  2020-07-14 22:25:10 933   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test116','Sv8nWva7EzG3eNpMLP','C41F8FF8471341C7B6F049782A534E82','C78A23F8F06762722C39FF25512E5E0F',1,'Avatar_05.png','保持可爱',0,1,0,0,0)
+
+  2020-07-14 22:25:14 646   :   select count(*) as count from XX_User where userName='test117'
+
+  2020-07-14 22:25:14 656   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test117','7FMGQplnTnq32ZI08g','64C5652020B2418D866E3BEAF0CA80BE','CA37B20BE20FFCFA80B62A4614CA11C4',1,'Avatar_03.png','傲血狂沙',0,1,0,0,0)
+
+  2020-07-14 22:25:17 682   :   select count(*) as count from XX_User where userName='test118'
+
+  2020-07-14 22:25:17 714   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test118','3EtOIMFycU8YgfqMk9','F61E3C472A5B4253B9C66F759DDE18D0','00C4F98DB4A909F2AF9486F17EB39B9A',1,'Avatar_01.png','美少女壮士',0,1,0,0,0)
+
+  2020-07-14 22:25:22 852   :   select count(*) as count from XX_User where userName='test119'
+
+  2020-07-14 22:25:22 893   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test119','lzlOJIZKWMROAknbDc','82E55B35C49A412F810E02F5E53AC4A8','C20D555AA0CB7D45768CD2486D124BB5',1,'Avatar_02.png','抱一下就乖',0,1,0,0,0)
+
+  2020-07-14 22:25:32 905   :   select count(*) as count from XX_User where userName='test121'
+
+  2020-07-14 22:25:32 907   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test121','WrpEOFJC5bXr5cinX7','122FFE173D604E39BFD2AF189B25868B','7C815959AA2E6A1A4ABD233AFBD84F9F',1,'Avatar_05.png','独夜无伴',0,1,0,0,0)
+
+  2020-07-14 22:25:35 271   :   select count(*) as count from XX_User where userName='test122'
+
+  2020-07-14 22:25:35 274   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test122','C8IJiG46quKw2JV7C8','5B9F91E7022047429C058662627410B1','4F96DC073469FA9EDA32BAA0A725C0B9',1,'Avatar_04.png','孤寂心碎',0,1,0,0,0)
+
+  2020-07-14 22:25:37 837   :   select count(*) as count from XX_User where userName='test123'
+
+  2020-07-14 22:25:37 839   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test123','loU8p6mrRF54xREDD0','4D9D70193A8E44FDBD38D710637E1C5E','72045C4C83EACADF6C7F4F8F9900986B',1,'Avatar_02.png','许你晚风凉',0,1,0,0,0)
+
+  2020-07-14 22:25:40 809   :   select count(*) as count from XX_User where userName='test124'
+
+  2020-07-14 22:25:40 813   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test124','O5HMCkprzDL78TnIzG','D0E7712D19E04BB6BF6A27E89943292B','DC9911A1C48B3239AAC7FE28A3E876BE',1,'Avatar_05.png','栖鸦不定',0,1,0,0,0)
+
+  2020-07-14 22:25:44 399   :   select count(*) as count from XX_User where userName='test125'
+
+  2020-07-14 22:25:44 412   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test125','6h9OkZK0jfc11nnR8x','E0C932FB5D2C4C9AA5522DD2112791B3','CAF054A7D9422B353D1896BC7F7219F9',1,'Avatar_01.png','青芒果的涩',0,1,0,0,0)
+
+  2020-07-14 22:25:47 380   :   select count(*) as count from XX_User where userName='test126'
+
+  2020-07-14 22:25:47 382   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test126','zYXswdNZ0eS4Dp5W4d','17CAF2D697754B2F8BC2185A62901738','7E9543D37284BCFD2FB46B41D22DE44A',1,'Avatar_03.png','酷味有余',0,1,0,0,0)
+
+  2020-07-14 22:25:51 609   :   select count(*) as count from XX_User where userName='test127'
+
+  2020-07-14 22:25:51 611   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test127','oyhTp3b75jLVa3zplA','1E77C86B915F46B28B5E85F02EAA1B91','6D24E34254D4A0C6AA2A081C6A30F5D6',1,'Avatar_02.png','黛画生花',0,1,0,0,0)
+
+  2020-07-14 22:25:54 547   :   select count(*) as count from XX_User where userName='test128'
+
+  2020-07-14 22:25:54 556   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test128','1QAkQbvAVKoftiM8ZX','94E5BAB50A044987A2D3F10075968C71','F93349894FDF5CF589CCC8C82BAE8865',1,'Avatar_01.png','夜深千帐灯',0,1,0,0,0)
+
+  2020-07-14 22:25:59 570   :   select count(*) as count from XX_User where userName='test129'
+
+  2020-07-14 22:25:59 594   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test129','056FqSO4dw2uQkfsLw','53EB56A787D548119423A06B2DC66A46','EB5B92084B85D88960A11A4DD83B895D',1,'Avatar_01.png','消磨中过活',0,1,0,0,0)
+
+  2020-07-14 22:26:04 804   :   select count(*) as count from XX_User where userName='test131'
+
+  2020-07-14 22:26:04 808   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test131','m5wU7LDlT58N9oNQfk','0F5EF28169BC473BB8DFB9F8BD72FE00','95EF71878A71A834D4D51D2379A27E2D',1,'Avatar_02.png','感情不隔夜',0,1,0,0,0)
+
+  2020-07-14 22:26:07 571   :   select count(*) as count from XX_User where userName='test132'
+
+  2020-07-14 22:26:07 574   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test132','8UCETzTws62Qc8C8A4','6134E78A0BB946BFB2A107917E62CEAF','33A406E64F7801F25801D8C7875857ED',1,'Avatar_01.png','雨会停天会晴',0,1,0,0,0)
+
+  2020-07-14 22:26:10 740   :   select count(*) as count from XX_User where userName='test133'
+
+  2020-07-14 22:26:10 744   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test133','8SBpikqR9zwAFgJnrZ','2D0C7345535541B49402E4E5F62D3623','D8FB4C8CA65F8AEC6CC39B5766768819',1,'Avatar_01.png','淡抹低调的伤',0,1,0,0,0)
+
+  2020-07-14 22:26:14 604   :   select count(*) as count from XX_User where userName='test134'
+
+  2020-07-14 22:26:14 609   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test134','o6Zd5rXSOgWaq8VDOL','A8D638C19EEA4816B734324A7BD61C2B','85E36CD53DF98C339C223F0B64F810A3',1,'Avatar_03.png','且赴九渊',0,1,0,0,0)
+
+  2020-07-14 22:26:17 576   :   select count(*) as count from XX_User where userName='test135'
+
+  2020-07-14 22:26:17 579   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test135','RNNRiG0SvfBc1aDILr','BC10C1009D864712A7E928B430C29BA8','26EC332C8F087CA86ECC1207AD83C329',1,'Avatar_05.png','古长春藤',0,1,0,0,0)
+
+  2020-07-14 22:26:21 091   :   select count(*) as count from XX_User where userName='test136'
+
+  2020-07-14 22:26:21 106   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test136','Woqse2QOJsj0YAKMWy','07B8B83D833C441EA68E50320B0454D0','2C7AC6CFACC10C28DC76A9CF663988C1',1,'Avatar_05.png','无言温柔',0,1,0,0,0)
+
+  2020-07-14 22:26:24 100   :   select count(*) as count from XX_User where userName='test137'
+
+  2020-07-14 22:26:24 113   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test137','XS48FlXneMCJT4mdEn','561594D4D69F4AB188D4FDBD4CF72A78','2F6AA2E5914A8FED76C71BA7645AF519',1,'Avatar_05.png','只愿你好',0,1,0,0,0)
+
+  2020-07-14 22:26:27 194   :   select count(*) as count from XX_User where userName='test138'
+
+  2020-07-14 22:26:27 197   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test138','JffsiO05oQnmq9zm8y','EA68E5B558BE4CA2BD433E8AE55D1185','8DF6ACE4612C05A416A60E8C1DA23092',1,'Avatar_04.png','金屋藏我',0,1,0,0,0)
+
+  2020-07-14 22:26:30 512   :   select count(*) as count from XX_User where userName='test139'
+
+  2020-07-14 22:26:30 540   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test139','AGtVmTCHmJAn9K40i7','B1E90E13FB5248FBAA76FD5463E691DA','6E1CBD32FFF11181B21F5EEFAE2EFAD8',1,'Avatar_03.png','渐行渐远',0,1,0,0,0)
+
+  2020-07-14 22:26:46 838   :   select count(*) as count from XX_User where userName='test140'
+
+  2020-07-14 22:26:50 711   :   select count(*) as count from XX_User where userName='test141'
+
+  2020-07-14 22:26:50 713   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test141','qeLihhmbROaaIPcdm7','7EE510E383534A79AD8B39F93D0436AF','97B1999F68DC0536D23EC4B9F52388B5',1,'Avatar_03.png','月が照す',0,1,0,0,0)
+
+  2020-07-14 22:26:53 855   :   select count(*) as count from XX_User where userName='test142'
+
+  2020-07-14 22:26:53 968   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test142','ANgQUWbZGKCcS9O5UJ','66BD53FBE0B849808C756F72F3ABB63A','56F8AE391D13C1919D80E0BCF9AA8C7F',1,'Avatar_03.png','稳场酷妹',0,1,0,0,0)
+
+  2020-07-14 22:26:56 326   :   select count(*) as count from XX_User where userName='test143'
+
+  2020-07-14 22:26:56 347   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test143','ctLbAcnavfHnKnKTol','14E769F61CC347E8812471CDBD38682A','CBB8F2C123E67A273AD36B9F37F29425',1,'Avatar_02.png','专治各种不服',0,1,0,0,0)
+
+  2020-07-14 22:26:59 111   :   select count(*) as count from XX_User where userName='test144'
+
+  2020-07-14 22:26:59 113   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test144','9TmIBUUOdKyIuk4PqM','E2FA64AF73A64A9CB91C5E4E50795874','77241491A8E3C3044651F788E331CF53',1,'Avatar_01.png','睫毛下的泪珠',0,1,0,0,0)
+
+  2020-07-14 22:27:01 635   :   select count(*) as count from XX_User where userName='test145'
+
+  2020-07-14 22:27:01 664   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test145','vsnHvl28G06MZ8BlHJ','FBAF34B3A32D4CCC9429447A02CBADB5','58D68D34911E1222D5FE35CCC986C001',1,'Avatar_03.png','焦糖布丁',0,1,0,0,0)
+
+  2020-07-14 22:27:04 514   :   select count(*) as count from XX_User where userName='test146'
+
+  2020-07-14 22:27:04 516   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test146','2aZ5ujerTNtIFt1mPP','64565510AF814E0FAF52F8D2DCE1D11B','BEA688590AEAB14A75800546B10132C3',1,'Avatar_01.png','懦弱给谁看',0,1,0,0,0)
+
+  2020-07-14 22:27:06 869   :   select count(*) as count from XX_User where userName='test147'
+
+  2020-07-14 22:27:06 872   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test147','RsNXbdRpmzd5ib9Jcy','44F84AF10550494BA3C2040DEC56A065','585AECCD6001A0B44D506B658FE6AAF0',1,'Avatar_05.png','粉面含春',0,1,0,0,0)
+
+  2020-07-14 22:27:10 519   :   select count(*) as count from XX_User where userName='test148'
+
+  2020-07-14 22:27:10 539   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test148','58irlVqAUp4bvrfdet','96409D4B29A34CEC9FCAFC8DB065C952','E90D351F0142DFE1497BDBEF0D4D7C90',1,'Avatar_01.png','甜的很正经',0,1,0,0,0)
+
+  2020-07-14 22:27:12 945   :   select count(*) as count from XX_User where userName='test149'
+
+  2020-07-14 22:27:12 964   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test149','iCrx10PE33tWKqMjFC','6DEF17B32F304C648AA5851F23BD172C','52AB8845CA25BBF0EEB47DC7A9CF3BF3',1,'Avatar_02.png','卧笑醉伊人',0,1,0,0,0)
+
+  2020-07-14 22:27:16 173   :   select count(*) as count from XX_User where userName='test150'
+
+  2020-07-14 22:27:16 191   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test150','d4tKSPBAxKnSxkZT0B','36DE221A85B7412796CCF5D10347FA7B','2F78228CCA6D5030EBD59916A0F8C8C1',1,'Avatar_02.png','爷你高攀不起',0,1,0,0,0)
+
+  2020-07-14 22:27:19 863   :   select count(*) as count from XX_User where userName='test151'
+
+  2020-07-14 22:27:19 917   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test151','OVjs1IXSKsUnlQu66X','319C9F7C9499446E970D919287DFEBB6','8617F8986E5E87D8F908D53B5A4DB56A',1,'Avatar_05.png','薄荷微凉',0,1,0,0,0)
+
+  2020-07-14 22:27:22 853   :   select count(*) as count from XX_User where userName='test152'
+
+  2020-07-14 22:27:22 862   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test152','rdCUrQhlBUxHE4HOJl','0F9AC27B82AB4E6AB6B4A575197B9BA6','808CC8AC13DCEC80DED3458C90AF2994',1,'Avatar_03.png','银河万里',0,1,0,0,0)
+
+  2020-07-14 22:27:25 438   :   select count(*) as count from XX_User where userName='test153'
+
+  2020-07-14 22:27:25 453   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test153','0SivlmicTBVYs0VH3w','1745E747EB804B3D8E9B062B88A9C2B1','CD935E18C5FFB8C6545E5690377312DB',1,'Avatar_01.png','春日秘密铺',0,1,0,0,0)
+
+  2020-07-14 22:27:28 008   :   select count(*) as count from XX_User where userName='test154'
+
+  2020-07-14 22:27:28 010   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test154','TK0IHFS0uedPDl9QK6','0BD27CA3CD2743C4AD13C27C8FF57E18','379B83BEBD39774989F54448AB86380B',1,'Avatar_05.png','半夏无爱',0,1,0,0,0)
+
+  2020-07-14 22:27:31 467   :   select count(*) as count from XX_User where userName='test155'
+
+  2020-07-14 22:27:31 469   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test155','H9qsYZkjWjJWhFXzJe','671F186E385C40A28EF5CAAD56C85D7B','3C477BE4658F0DC2C66B1593A7A3C463',1,'Avatar_04.png','草莓棉花糖',0,1,0,0,0)
+
+  2020-07-14 22:27:34 463   :   select count(*) as count from XX_User where userName='test156'
+
+  2020-07-14 22:27:34 469   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test156','ID47oiqTsC1Gc9z0q3','372F30920FC54D56A41C3DEE02FFEAE4','FC02876BD285CB9508A82CAD45B242B1',1,'Avatar_04.png','薍ㄋ兯奏',0,1,0,0,0)
+
+  2020-07-14 22:27:37 408   :   select count(*) as count from XX_User where userName='test157'
+
+  2020-07-14 22:27:37 446   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test157','x13bOwDU7vucOwu56E','6526C909E33845D5A4D98981FC21A605','5AF4BDEE868A8BBCC06BE822605A67A0',1,'Avatar_03.png','战神归来',0,1,0,0,0)
+
+  2020-07-14 22:27:40 046   :   select count(*) as count from XX_User where userName='test158'
+
+  2020-07-14 22:27:40 053   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test158','snVcW1PNp6FYCMVX8K','C30B801421D34263A68973344386C084','A34FE4CD967C609590A50C789AFB867E',1,'Avatar_03.png','笑傲苍生',0,1,0,0,0)
+
+  2020-07-14 22:27:42 781   :   select count(*) as count from XX_User where userName='test159'
+
+  2020-07-14 22:27:42 801   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test159','26ljIKbq8HJOmp2Trg','AB89005746684DA2B84DE810ECAF54E9','A27CA874D9858D2CE1CAEA8B88DF2815',1,'Avatar_01.png','帅哥在哪里',0,1,0,0,0)
+
+  2020-07-14 22:27:46 514   :   select count(*) as count from XX_User where userName='test160'
+
+  2020-07-14 22:27:46 516   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test160','hhZCDEnFnutPaAl7OH','22765BEFF1684F33A6FA31EDA6AEFC03','D6AE95DFA67E2008FE9AE65C4FCB6512',1,'Avatar_02.png','梨花泪沾衣',0,1,0,0,0)
+
+  2020-07-14 22:27:50 046   :   select count(*) as count from XX_User where userName='test167'
+
+  2020-07-14 22:27:50 050   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test167','IzNDN0oDzCY77kDaIK','209BC6C17351403993D99BB476B59418','0118D3D7AE7F2DA47EE9CA4E0BCD4A13',1,'Avatar_04.png','傲氣⑩哫',0,1,0,0,0)
+
+  2020-07-14 22:27:52 740   :   select count(*) as count from XX_User where userName='test168'
+
+  2020-07-14 22:27:52 764   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test168','zURV8LqdlpsYRjm7zq','4FE6FB3658CA47098AAB2D2A338C9D93','CB97F97A4C5BD07557AB765AFDED75AB',1,'Avatar_03.png','酷味有余',0,1,0,0,0)
+
+  2020-07-14 22:27:55 241   :   select count(*) as count from XX_User where userName='test168'
+
+  2020-07-14 22:27:58 233   :   select count(*) as count from XX_User where userName='test169'
+
+  2020-07-14 22:27:58 236   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test169','1YkjffOpPM0FlTd0JC','B5891DA06355400DB43BA7090DB51054','7347883E85467B144743F8EE5BFDD015',1,'Avatar_01.png','盖世小可爱',0,1,0,0,0)
+
+  2020-07-14 22:28:01 796   :   select count(*) as count from XX_User where userName='test170'
+
+  2020-07-14 22:28:01 799   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test170','EmOWoGIVSklaCLcpGS','A0DEE7CB9F614482BB038C86DF83894A','65CB4B0C99DC5295A3ED2EBDE4D6E952',1,'Avatar_04.png','浮生若梦',0,1,0,0,0)
+
+  2020-07-14 22:28:07 042   :   select count(*) as count from XX_User where userName='test180'
+
+  2020-07-14 22:28:07 044   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test180','GadBDMYfhXyTxqLwMi','63F4C358DF6A4B1DAE0B7907171D7E40','B63CD0A9EBCC82A50C2C8D29FD3DA4D7',1,'Avatar_04.png','恋孤殇独',0,1,0,0,0)
+
+  2020-07-14 22:28:11 660   :   select count(*) as count from XX_User where userName='test181'
+
+  2020-07-14 22:28:11 694   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test181','qgOTAwZArhCqv6VV2F','1631E4A88421483BBC1F5ECC5FCE2C18','5609E8E195E7D0891E7765666D60A274',1,'Avatar_03.png','森眸暖光',0,1,0,0,0)
+
+  2020-07-14 22:28:15 734   :   select count(*) as count from XX_User where userName='test182'
+
+  2020-07-14 22:28:15 737   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test182','1GIdB49of20wOVOZhs','B1315375084B4DFB815BEBF5B5846972','FAC6397110809E3E79B6FBC7EBCFCD6E',1,'Avatar_01.png','你的小仙女',0,1,0,0,0)
+
+  2020-07-14 22:28:18 752   :   select count(*) as count from XX_User where userName='test183'
+
+  2020-07-14 22:28:18 755   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test183','pRyifmpZJf5KIKDpIc','1B21FACA7D0E43B28E08780C6DB8A5AA','FCF4B8C9B8188FB0058FE188F62618BC',1,'Avatar_03.png','浅岛溺心',0,1,0,0,0)
+
+  2020-07-14 22:28:21 529   :   select count(*) as count from XX_User where userName='test184'
+
+  2020-07-14 22:28:21 532   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test184','bGE21bFaigZMMusI2W','8670DD5618CC4E5E905A135BCAF34141','07A64A91A70863692CF8B0FD9EF86C57',1,'Avatar_01.png','万千心事难诉',0,1,0,0,0)
+
+  2020-07-14 22:28:24 719   :   select count(*) as count from XX_User where userName='test185'
+
+  2020-07-14 22:28:24 722   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test185','xlPcEVnwYDg1fWLWDM','D1F6AD88730F45969CD77B4179EF4FF4','32D338AA039FEE06781D816BA1F10E35',1,'Avatar_03.png','战神归来',0,1,0,0,0)
+
+  2020-07-14 22:28:27 657   :   select count(*) as count from XX_User where userName='test186'
+
+  2020-07-14 22:28:27 667   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test186','EkrrCafuGI9zQEh1Qx','121F736483184E7397313E2A8A003E92','FFEF231FB420DA3F84B22ED6CC35DB30',1,'Avatar_04.png','蛋奶布丁',0,1,0,0,0)
+
+  2020-07-14 22:28:30 675   :   select count(*) as count from XX_User where userName='test187'
+
+  2020-07-14 22:28:30 677   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test187','GO573tl4c1riL8Tsym','453E17125D19429BB2C8F253B0575C35','9128FFFAE068A97B0CBB8B3A54E5DCBB',1,'Avatar_04.png','恋孤殇独',0,1,0,0,0)
+
+  2020-07-14 22:28:33 521   :   select count(*) as count from XX_User where userName='test188'
+
+  2020-07-14 22:28:33 523   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test188','m8diglPQyhLw7FO5m9','D7F1D5FFE8744A449C28A4EFE0724171','9C0829E490E3D4B27775FEC190E46B2F',1,'Avatar_02.png','千万种心动',0,1,0,0,0)
+
+  2020-07-14 22:28:37 091   :   select count(*) as count from XX_User where userName='test189'
+
+  2020-07-14 22:28:37 093   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test189','td0IYUiRtsmeH17STN','D6034B97D15F49BCA55C046A8127C5FB','7E33185F9EDBF078C3EEF9604B6CAAD7',1,'Avatar_03.png','心之所向',0,1,0,0,0)
+
+  2020-07-14 22:28:40 568   :   select count(*) as count from XX_User where userName='test190'
+
+  2020-07-14 22:28:40 570   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test190','Z1MhHc5eSkrllZjAjL','FC259ED49FFC4C9DA2B99C6A2515F580','785EE109330FA7DD9B28FCBC790757A4',1,'Avatar_05.png','心在萌发',0,1,0,0,0)
+
+  2020-07-14 22:28:44 573   :   select count(*) as count from XX_User where userName='test191'
+
+  2020-07-14 22:28:44 604   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test191','ArHAHKe1H5PqEOcEzz','D772725A8A414C3189A7120CEC0E8C87','795E1104921D18FE1653548D521C489F',1,'Avatar_03.png','天生傲骨',0,1,0,0,0)
+
+  2020-07-14 22:28:47 549   :   select count(*) as count from XX_User where userName='test192'
+
+  2020-07-14 22:28:47 552   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test192','dJ018SyuxxsKW3qmdW','855653FB5CC544C2AF6E409FB11EDEA9','735254FF29BE59662D52CD3C4FA6A238',1,'Avatar_02.png','全国撩汉代表',0,1,0,0,0)
+
+  2020-07-14 22:28:50 363   :   select count(*) as count from XX_User where userName='test193'
+
+  2020-07-14 22:28:50 366   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test193','bELnTMGeVZc0iVW1zT','3668CFE2ED2B4516972084782B8E42F8','C5D598A28AA7E89A5A14642DC0760187',1,'Avatar_01.png','万千心事难诉',0,1,0,0,0)
+
+  2020-07-14 22:28:52 966   :   select count(*) as count from XX_User where userName='test194'
+
+  2020-07-14 22:28:52 969   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test194','60Do1hS7dAnL6cmTC0','681F9B97D8784859AB4B59FE58EAF0B0','5611519E08C8E96C833A3E678BFA14C3',1,'Avatar_01.png','叶落若相随',0,1,0,0,0)
+
+  2020-07-14 22:28:55 821   :   select count(*) as count from XX_User where userName='test195'
+
+  2020-07-14 22:28:55 863   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test195','POUo0lYYgNAU5EugLj','A04CBC5D9DE24CCC970BF809658B1EC0','BD2BBBD7058E47E2DC40D032826984C3',1,'Avatar_05.png','污力满满',0,1,0,0,0)
+
+  2020-07-14 22:28:58 630   :   select count(*) as count from XX_User where userName='test196'
+
+  2020-07-14 22:28:58 634   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test196','BD07Mae9OPtW9ojy63','63B065FC9DBC4E1794A66EADF33E450F','7A2A940CB7E0DCA3ADE8AE6605141832',1,'Avatar_04.png','情深缘浅',0,1,0,0,0)
+
+  2020-07-14 22:29:01 623   :   select count(*) as count from XX_User where userName='test197'
+
+  2020-07-14 22:29:01 654   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test197','sw80Yz2fbFPonHqm7a','FE6E3D5D72B54AAA91403FA5E8E01D51','D7A9936A0E2AB705ED2F3B4EC9814C2C',1,'Avatar_03.png','搁浅忘忧',0,1,0,0,0)
+
+  2020-07-14 22:29:04 505   :   select count(*) as count from XX_User where userName='test198'
+
+  2020-07-14 22:29:04 517   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test198','YeKnYyfyosck21Qmeg','6DBB33492F3C4334A4CCBEE8A3BCD929','4C720AF92744178F7ED10668E6735675',1,'Avatar_05.png','余生颓废',0,1,0,0,0)
+
+  2020-07-14 22:29:07 329   :   select count(*) as count from XX_User where userName='test199'
+
+  2020-07-14 22:29:07 332   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test199','jQH9YryjMNI4pdz1k9','66A55DF6AF5941398F707FB441700CA6','D51F6CD7CA7B58C898C90C5EB62FA462',1,'Avatar_02.png','书生夺命剑',0,1,0,0,0)
+
+  2020-07-14 22:29:17 061   :   select * from XX_User where id=7
+
+  2020-07-14 22:29:17 063   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:29:17 064   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:29:58 576   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:01 011   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:01 013   :   select * from XX_User where id=7
+
+  2020-07-14 22:30:01 018   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:30:12 798   :   select * from XX_User where id=7
+
+  2020-07-14 22:30:12 800   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:12 803   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:30:14 662   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:14 665   :   select * from XX_User where id=7
+
+  2020-07-14 22:30:14 670   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:30:47 350   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:48 272   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:30:48 297   :   select * from XX_User where id=7
+
+  2020-07-14 22:30:48 319   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:31:33 022   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:31:35 812   :   select * from XX_User where id=7
+
+  2020-07-14 22:31:35 817   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:31:38 486   :   select * from XX_User where id=7
+
+  2020-07-14 22:31:38 490   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:31:38 492   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:31:51 748   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:32:40 595   :   select * from XX_User where id=7
+
+  2020-07-14 22:32:40 597   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:32:40 601   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:32:41 257   :   select * from XX_User where id=7
+
+  2020-07-14 22:32:41 261   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:32:41 264   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:32:43 384   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:32:51 373   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 20 and 30
+
+  2020-07-14 22:33:45 545   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:33:47 950   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:33:47 952   :   select * from XX_User where id=7
+
+  2020-07-14 22:33:47 960   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:33:51 359   :   select top 50
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 50
+
+  2020-07-14 22:34:01 355   :   select * from XX_User where id=7
+
+  2020-07-14 22:34:01 356   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:34:01 358   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:34:33 289   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:34:34 049   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:34:35 516   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:34:35 517   :   select * from XX_User where id=7
+
+  2020-07-14 22:34:35 523   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:34:38 052   :   select top 30
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 30
+
+  2020-07-14 22:34:40 834   :   select * from XX_User where id=7
+
+  2020-07-14 22:34:40 836   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:34:40 840   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:34:43 590   :   select top 20
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 20
+
+  2020-07-14 22:34:45 983   :   select top 20
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 20 and 40
+
+  2020-07-14 22:34:48 717   :   select top 20
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 40 and 60
+
+  2020-07-14 22:34:54 699   :   select top 20
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 60 and 80
+
+  2020-07-14 22:35:45 561   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:35:47 115   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:35:47 116   :   select * from XX_User where id=7
+
+  2020-07-14 22:35:47 122   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:36:47 589   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:36:55 254   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:36:57 330   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:36:57 333   :   select * from XX_User where id=7
+
+  2020-07-14 22:36:57 337   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:37:02 156   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test110') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110') XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:37:28 580   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:37:30 293   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:37:30 301   :   select * from XX_User where id=7
+
+  2020-07-14 22:37:30 304   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:37:35 628   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%抱一下就乖%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%抱一下就乖%') XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:38:16 002   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:38:36 501   :   select * from XX_User where id=7
+
+  2020-07-14 22:38:36 504   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:38:36 510   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:38:50 832   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='admin') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='admin') XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:40:18 877   :   select * from XX_User where id=7
+
+  2020-07-14 22:40:18 881   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:40:18 888   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:40:32 263   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:40:55 075   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =2) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =2) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:41:08 445   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =2) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =2) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:41:41 838   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =2) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =2) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:42:25 604   :   select * from XX_User where id=7
+
+  2020-07-14 22:42:25 605   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:42:25 610   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:42:35 958   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:43:15 964   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:43:17 375   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:43:17 377   :   select * from XX_User where id=7
+
+  2020-07-14 22:43:17 384   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:43:32 388   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:44:06 953   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:44:16 342   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:44:16 345   :   select * from XX_User where id=7
+
+  2020-07-14 22:44:16 353   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:44:20 068   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isFreeze =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isFreeze =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:44:29 479   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =0and isFreeze =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =0and isFreeze =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:44:32 227   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =1and isFreeze =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =1and isFreeze =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:45:02 968   :   select * from XX_User where id=7
+
+  2020-07-14 22:45:02 971   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:45:02 973   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:46:31 162   :   select * from XX_User where id=7
+
+  2020-07-14 22:46:31 165   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:46:31 169   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:47:28 790   :   select * from XX_User where id=7
+
+  2020-07-14 22:47:28 792   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:47:28 797   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:47:44 814   :   select * from XX_User where id=7
+
+  2020-07-14 22:47:44 816   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:47:44 818   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:20 280   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:34 579   :   select * from XX_User where id=7
+
+  2020-07-14 22:48:34 581   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:34 585   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:48:38 356   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isActivation =0) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isActivation =0) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:40 510   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:51 836   :   select * from XX_User where id=7
+
+  2020-07-14 22:48:51 838   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:48:51 841   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:48:55 475   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:49:03 181   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%一纸独白%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%一纸独白%') XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:49:10 876   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%一纸独%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%一纸独%') XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:49:15 990   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%一%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%一%') XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:49:19 037   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%一%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%一%') XX_User
+                        where row between 10 and 20
+
+  2020-07-14 22:51:29 764   :   select * from XX_User where id=7
+
+  2020-07-14 22:51:29 769   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:51:39 918   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:51:42 597   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 22:53:54 576   :   select * from XX_User where id=7
+
+  2020-07-14 22:53:54 580   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:54:37 587   :   select * from XX_User where id=7
+
+  2020-07-14 22:54:37 712   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:54:39 450   :   select * from XX_User where id=7
+
+  2020-07-14 22:54:39 455   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:54:45 817   :   select * from XX_User where id=7
+
+  2020-07-14 22:54:45 824   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:54:51 596   :   select * from XX_User where id=7
+
+  2020-07-14 22:54:51 600   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:54:56 038   :   select * from XX_User where id=7
+
+  2020-07-14 22:54:56 044   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:55:53 089   :   select * from XX_User where id=7
+
+  2020-07-14 22:55:53 096   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 22:58:21 091   :   select * from XX_User where id=7
+
+  2020-07-14 22:58:21 124   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:02:08 385   :   select * from XX_User where id=7
+
+  2020-07-14 23:02:08 401   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:02:25 805   :   select * from XX_User where id=7
+
+  2020-07-14 23:02:25 814   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =0and isVip =0and isFreeze =and isActivation =0) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =0and isVip =0and isFreeze =and isActivation =0) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:02:25 821   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:06:16 255   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:06:29 518   :   select * from XX_User where id=7
+
+  2020-07-14 23:06:31 185   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:06:31 186   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:06:55 771   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%抱一下就乖%') as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%抱一下就乖%') XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:07:20 172   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%抱一下就乖%'and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%抱一下就乖%'and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:07:30 467   :   select * from XX_User where id=7
+
+  2020-07-14 23:07:30 522   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:07:34 523   :   select * from XX_User where id=7
+
+  2020-07-14 23:07:34 551   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:07:53 096   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:07:53 107   :   select * from XX_User where id=7
+
+  2020-07-14 23:07:53 121   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:07:59 487   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:02 943   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:06 265   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =0and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =0and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:08 934   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:23 269   :   select * from XX_User where id=7
+
+  2020-07-14 23:08:23 272   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:23 278   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:08:49 749   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isFreeze =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isFreeze =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:54 590   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:08:59 871   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:03 951   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =2and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =2and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:07 719   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:15 199   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:21 064   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:23 487   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test1101'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test1101'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:25 493   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:28 686   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test110'and name like '%hah5%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110'and name like '%hah5%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:30 694   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 and userName='test110'and name like '%hah%'and userRole =1and isVip =1and isFreeze =1and isActivation =1) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:32 764   :   select * from XX_User where id=7
+
+  2020-07-14 23:09:32 766   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:09:32 797   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:18:38 762   :   select * from XX_User where id=7
+
+  2020-07-14 23:18:38 794   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:18:47 871   :   select * from XX_User where id=7
+
+  2020-07-14 23:18:47 903   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:19:06 812   :   select * from XX_User where userName='admin'
+
+  2020-07-14 23:19:06 843   :   select top 1 * from XX_Token where uid=7 order by id desc
+
+  2020-07-14 23:19:06 879   :   select * from XX_User where id=7
+
+  2020-07-14 23:19:06 885   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:19:08 989   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:19:11 681   :   select * from XX_User where id=7
+
+  2020-07-14 23:19:11 721   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:19:17 058   :   select * from XX_User where id=7
+
+  2020-07-14 23:19:17 061   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:19:17 066   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:22:22 775   :   select * from XX_User where id=7
+
+  2020-07-14 23:22:22 782   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:22:22 785   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:23:02 831   :   select * from XX_User where id=7
+
+  2020-07-14 23:23:02 835   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:02 838   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:23:03 797   :   select * from XX_User where id=7
+
+  2020-07-14 23:23:03 798   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:03 801   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1
+
+  2020-07-14 23:23:06 960   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:08 855   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:10 757   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:11 894   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:13 297   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:23:40 088   :   select top 10
+	                    (select count(*)  from XX_User where 1=1 ) as total,
+	                    * from
+                        (select ROW_NUMBER() over(order by id) as row,* from XX_User u where 1=1 ) XX_User
+                        where row between 0 and 10
+
+  2020-07-14 23:24:05 392   :   select * from XX_User where id=7
+
+  2020-07-14 23:24:05 453   :    select p.* from XX_Permission p left join XX_RolePermission rp on p.permissId = rp.permissionId where rp.roleId = 1

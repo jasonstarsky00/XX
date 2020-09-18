@@ -1,0 +1,20 @@
+
+  2020-07-11 00:19:01 402   :   select count(*) as count from XX_User where userName='test120'
+
+  2020-07-11 00:19:01 889   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test120','lEGddrPi3sRkvgVFbB','9fb4593eb74e440dacffba4ec81a3e0b','CXMIw1iztXPt4EAzQivG1w==',1,'Avatar_02.png','抱一下就乖',0,1,0,0,0)
+
+  2020-07-11 00:21:29 043   :   select count(*) as count from XX_User where userName='test130'
+
+  2020-07-11 00:21:29 136   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test130','sxFGuTakl3qxGRMn3v','1ED4E11174DA4958ABB24AD2A3D6560A','EC78D603D900EA90062C568746F402BD',1,'Avatar_03.png','潇洒亼生',0,1,0,0,0)
+
+  2020-07-11 00:21:54 844   :   select count(*) as count from XX_User where userName='test140'
+
+  2020-07-11 00:21:54 867   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test140','krriv3YFPO5DFURymn','CA66E48097BC47C89081D3E5D3FEDBFF','B254FB8B76445AF530A1AE411C4780B9',1,'Avatar_04.png','倒影年华',0,1,0,0,0)
+
+  2020-07-11 00:22:07 162   :   select count(*) as count from XX_User where userName='test111'
+
+  2020-07-11 00:22:07 188   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test111','HwLLCXPqviy9Owj9Sf','DC64B9923675496CB5CCB13B9786607F','F6C9C14AC69EB4683D57E1C789C42A59',1,'Avatar_04.png','多重人格',0,1,0,0,0)
+
+  2020-07-11 00:22:33 230   :   select count(*) as count from XX_User where userName='test112'
+
+  2020-07-11 00:22:33 231   :     insert into XX_User(userName,randCode,guid,passWord,userRole,avatarPath,name,isVip,vipGrade,intergral,isFreeze,isActivation)values('test112','VFNnJKBiA0QkidYa4t','03F0CEC7C2654A11BA1F353E07C28E1E','B37367D553502AE530C21794A67E19F0',1,'Avatar_05.png','苍了夏靡',0,1,0,0,0)
